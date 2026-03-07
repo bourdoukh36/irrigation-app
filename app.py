@@ -20,7 +20,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+st.image("logo.png", width=150)
 # FORCAGE CSS + JS TITRE
 st.markdown("""
 <style>
@@ -600,4 +600,5 @@ with st.container():
     with col_f1: st.markdown("*🌱 Agriculture de précision*")
     with col_f2: st.markdown("*📱 Version Streamlit*")
     with col_f3: st.markdown("*Bourdoukh")
+
 
