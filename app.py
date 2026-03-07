@@ -16,7 +16,7 @@ st.markdown("""
 # SEULE ET UNIQUE CONFIGURATION
 st.set_page_config(
     page_title="IRRIGATION FERTILISANTE",
-    page_icon="🌱",
+    page_icon="assets/logo.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -600,3 +600,4 @@ with st.container():
     with col_f1: st.markdown("*🌱 Agriculture de précision*")
     with col_f2: st.markdown("*📱 Version Streamlit*")
     with col_f3: st.markdown("*Bourdoukh")
+
